@@ -1,0 +1,50 @@
+/**
+* Style page of the main menu
+* @author Alejandro Brugarolas
+* @since 2018-01-20
+*/
+@font-face {
+    font-family: 'mlpFont';
+    src: url('mlpfont.ttf');
+}
+
+
+
+body{
+	font-family: 'mlpFont';
+	color: #bb0337;
+	background-image: url("../res/mainBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.title{
+	margin-left: 20%;
+}
+
+#leaderBoard{
+	width: 110px;
+}
+
+#playBtn{
+	display: block;
+	margin-top: 3%;
+	margin-left: 20%;
+	text-decoration: none;
+	font-size: 60px;
+}
+
+#playBtn:hover{
+	color: #aa0337;
+}
+
+#playBtn:visited{
+	color: inherit;
+}
+
+#controls{
+	margin-left: 20%;
+	font-size: 36px;
+	display: block;
+}

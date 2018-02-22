@@ -1,0 +1,59 @@
+/**
+* Style page of the game
+* @author Alejandro Brugarolas
+*/
+
+@font-face {
+    font-family: 'mlpFont';
+    src: url('mlpfont.ttf');
+}
+
+
+
+body{
+	font-family: 'mlpFont';
+    font-size: 30px;
+    color: #bb0337;
+	background-image: url("../res/background.png");
+	background-repeat: repeat-x;
+    background-size:cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#player{
+	height: 150px;
+	width: auto;
+	position: absolute;
+	top: 75%;
+}
+
+.enemyWalk{
+	height: 100px;
+	width: auto;
+	position: absolute;
+	left: 100%;
+	top: 80%
+}
+
+.enemyFly{
+	height: 100px;
+	width: auto;
+	position: absolute;
+	left: 90%;
+	top: 5%
+}
+
+#lifes{
+	position: absolute;
+}
+
+.bullet{
+	height: 15px;
+	width: auto;
+}
+
+.bonus{
+	height: 50px;
+	width: auto;
+}
